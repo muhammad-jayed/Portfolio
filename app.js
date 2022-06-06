@@ -18,8 +18,7 @@ $(document).ready(function(){
 
     var typed = new Typed(".typing-1",{
         strings: [
-            "Hafez-E-Quran.", "Mufassir.", "Muhaddith.",
-            "Lecturer.", "Speeker."
+            "Muhammad Jayed.","Wed Developer.","UX Designer.","Islamic Singer."
         ],
         typeSpeed: 100,
         backSpeed: 60,
@@ -34,6 +33,15 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
+ var hamburger = document.querySelector(".hamb");
+ var navlist = document.querySelector(".nav-list");
+ var links = document.querySelector(".nav-list li");
+ 
+ hamburger.addEventListener(".click", function(){
+     this.classList.toggle(".click");
+     navlist.classList.toggle("open");
+ });
 
     //slide-up script
     $('.scroll-up-btn').click(function(){
