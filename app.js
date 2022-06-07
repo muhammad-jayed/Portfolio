@@ -1,3 +1,7 @@
+
+
+
+
 $(document).ready(function(){
 
     $(window).scroll(function(){
@@ -18,7 +22,8 @@ $(document).ready(function(){
 
     var typed = new Typed(".typing-1",{
         strings: [
-            "Muhammad Jayed.","Wed Developer.","UX Designer.","Islamic Singer."
+            "Masum Billah.", "Hafez-E-Quran.", "a Mufassir.", "a Muhaddith.",
+            "a Lecturer.", "a Speeker."
         ],
         typeSpeed: 100,
         backSpeed: 60,
@@ -26,7 +31,7 @@ $(document).ready(function(){
     });
     var typed = new Typed(".typing-2",{
         strings: [
-            "Hafez-E-Quran", "Mufassir.", "Muhaddith.",
+            "Hafez-E-Quran.", "Mufassir.", "Muhaddith.",
             "Lecturer.", "Speeker."
         ],
         typeSpeed: 100,
